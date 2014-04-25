@@ -158,7 +158,7 @@ colnames(tidydata2)<-name12
 #View(tidydata2)
 
 
-#exporting the datasets
+#exporting the datasets as text files
 write.table(tidydata, "Tidy Data.txt", sep="\t")
 write.table(tidydata2, "Tidy Data 2.txt", sep="\t")
 
